@@ -1,65 +1,115 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#10091f">
-  <title>Happy Birthday Khushu ❤️</title>
+  <meta name="theme-color" content="#190817">
+  <title>Happy Birthday Khushu 💜</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="stars" id="stars"></div>
 
-  <main class="container">
-    <section class="intro" id="intro">
-      <div class="sparkle">✦ ✧ ✦</div>
-      <p class="eyebrow">A LITTLE SURPRISE FOR SOMEONE SPECIAL</p>
-      <h1>Hey, <span>Khushu!</span></h1>
-      <p class="subtitle">Someone made a little world just for you...</p>
-      <button id="openBtn">Open Your Surprise ✨</button>
-      <p class="tiny">Made with friendship & lots of wishes ♡</p>
+  <nav class="navbar">
+    <a href="#home" class="logo">✦ Khushu's Day</a>
+    <div class="nav-links">
+      <a href="#home">Surface</a>
+      <a href="#memories">Memories</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#letter">The Letter</a>
+      <a href="#wishes">Wishes</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">✦ A SPECIAL MOMENT FOR SOMEONE SPECIAL ✦</p>
+      <h1>Happy Birthday,<br><span>Khushu!</span></h1>
+      <p class="hero-text">
+        Today is all about celebrating you.
+        Here's a little corner of the internet,
+        created especially for your special day.
+      </p>
+      <div class="hero-buttons">
+        <a href="#memories" class="btn">Begin the Journey ✦</a>
+        <a href="#letter" class="btn secondary">Read Your Letter ♡</a>
+      </div>
+      <div class="scroll-note">SCROLL TO EXPLORE ↓</div>
     </section>
 
-    <section class="surprise hidden" id="surprise">
-      <p class="eyebrow">TODAY IS YOUR DAY</p>
-      <h1 class="birthday">Happy Birthday<br><span>Khushu!</span></h1>
-
-      <div class="cake">
-        <div class="flame">🔥</div>
-        <div class="candle"></div>
-        <div class="icing"></div>
-        <div class="cake-top"></div>
-        <div class="cake-bottom"></div>
-        <div class="plate"></div>
-      </div>
-
-      <h2>A little wish for you 💜</h2>
-      <p class="message">
-        May your life always be filled with happiness,
-        laughter, beautiful memories and countless reasons to smile.
-        Keep being the amazing person you are.
-        You deserve all the wonderful things life has to offer!
+    <section class="section" id="memories">
+      <p class="eyebrow">THE LITTLE THINGS MATTER</p>
+      <h2>Our <span>Memories</span></h2>
+      <p class="section-text">
+        Some conversations become memories,
+        and some ordinary moments become special.
+        Here's to all the little moments worth remembering.
       </p>
-
-      <div class="letter">
-        <div class="letter-icon">💌</div>
-        <h2>A Little Birthday Note</h2>
-        <p>
-          Khushu, I hope this new chapter of your life brings
-          you exciting opportunities, genuine happiness and
-          unforgettable moments.
-          Never stop smiling and never stop being yourself.
-          Have the most beautiful birthday!
-        </p>
-        <span>— Your Friend ❤️</span>
+      <div class="memory-grid">
+        <div class="memory-card">
+          <span>✦ 01</span>
+          <h3>Little Conversations</h3>
+          <p>Random talks that make an ordinary day better.</p>
+        </div>
+        <div class="memory-card">
+          <span>✦ 02</span>
+          <h3>Random Laughs</h3>
+          <p>Because a little laughter makes everything brighter.</p>
+        </div>
+        <div class="memory-card">
+          <span>✦ 03</span>
+          <h3>Good Memories</h3>
+          <p>Moments that deserve a special place in memory.</p>
+        </div>
       </div>
+    </section>
 
-      <p class="footer">Made especially for Khushu · With best wishes ✨</p>
+    <section class="section gallery-section" id="gallery">
+      <p class="eyebrow">A COLLECTION OF MOMENTS</p>
+      <h2>Little <span>Gallery</span></h2>
+      <p class="section-text">A place for beautiful memories and happy moments.</p>
+      <div class="gallery-grid">
+        <div class="gallery-card">♡<small>Beautiful Moments</small></div>
+        <div class="gallery-card">✦<small>Happy Memories</small></div>
+        <div class="gallery-card">✨<small>Special Days</small></div>
+      </div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <p class="eyebrow">A FEW WORDS FROM THE HEART</p>
+      <h2>The Birthday <span>Letter</span></h2>
+      <div class="letter-card">
+        <div class="letter-icon">💌</div>
+        <h3>Dear Khushu,</h3>
+        <p>
+          Happy Birthday! I hope your day is filled with happiness,
+          laughter and countless beautiful moments.
+          May this new chapter bring you exciting opportunities,
+          success and all the good things you deserve.
+        </p>
+        <p>
+          Keep smiling, keep growing and always stay the wonderful
+          person you are. Wishing you an amazing year ahead!
+        </p>
+        <div class="signature">— Your Friend ♡</div>
+      </div>
+    </section>
+
+    <section class="section wishes-section" id="wishes">
+      <p class="eyebrow">ONE LAST THING</p>
+      <h2>My Best <span>Wishes</span></h2>
+      <p class="section-text">
+        May every new day bring you a reason to smile.
+        Have the happiest birthday, Khushu! 💜
+      </p>
+      <div class="final-heart">✦ ♡ ✦</div>
+      <a href="#home" class="btn">Back to the Beginning ↑</a>
     </section>
   </main>
 
-  <div id="confetti"></div>
+  <footer>MADE WITH FRIENDSHIP · ESPECIALLY FOR KHUSHU ✦</footer>
+
   <script src="script.js"></script>
 </body>
 </html>
